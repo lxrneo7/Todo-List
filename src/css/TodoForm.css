@@ -1,0 +1,44 @@
+.inputForm {
+    height: 120px; /* Increased height for better visibility */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .inputForm > input, 
+  .inputForm > button {
+    outline: none;
+    border: none;
+    font-size: 1.6rem; /* Increased font size for better readability */
+    color: #000;
+  }
+  
+  .inputForm > input {
+    height: 6vh; /* Increased input height */
+    width: 80%;
+    max-width: 900px; /* Set the maximum width */
+    margin: 0 auto; /* Center the container */
+    box-shadow: 1px 1px 8px -2px #000; /* Adjusted box shadow */
+    background: #F3F8FF;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    border-radius: 30px; /* Adjusted border radius */
+  }
+  
+  .inputForm > input::placeholder {
+    font-size: 1.4rem; /* Adjusted placeholder font size */
+    color: rgba(229, 229, 229, 0.907);
+  }
+  
+  .inputForm > button {
+    font-family: 'Roboto', sans-serif;
+    padding: 8px 15px; /* Adjusted padding for better button appearance */
+    background: #FFB534;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  

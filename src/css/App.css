@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .App {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 900px; /* Set the maximum width */
+    margin: 0 auto;
+    background-color: #f7f7f7; /* Light gray background color */
+  }
+  
+  .header {
+    background: #333; /* Dark gray background color */
+    color: white;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center text vertically */
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  .logoside {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .logoside > svg {
+    font-size: 2rem; /* Increased size for better visibility */
+    margin: 0 15px; /* Increased spacing */
+    animation: spin 6s linear infinite;
+    color: greenyellow;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
